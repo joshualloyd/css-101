@@ -1,3 +1,96 @@
 body {
 	background-color: orange;
 }
+
+#playground {
+	border: 5px dotted black;
+	color: purple;
+}
+
+.child {
+	background-color: slategray;
+	color: blue;
+}
+
+li {
+	border-bottom: 3px solid tomato;
+}
+
+#playground > h1 {
+	color: blue;
+}
+
+span ~ p {
+	background-color: green;
+}
+
+h1 {
+	font-family: 'Kumar One';
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: purple;
+}
+
+#playground {
+	display: none;
+}
+
+#accomplishments {
+	/*margin: 10px auto;*/
+}
+
+#accomplishments > h2 {
+	color: slategray;
+	text-align: center;
+}
+
+.accomplishment {
+	margin: 0 auto;
+	width: 40%;
+	padding: 5px;
+}
+
+.accomplishment > img {
+	width: 10%;
+}
+
+.accomplishment a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.accomplishment:nth-of-type(1) {
+	background-color: lightblue;
+	margin-bottom: 10px;
+}
+
+.accomplishment:nth-of-type(2) {
+	background-color: lavender;
+}
+
+#images {
+	display: flex;
+	justify-content: space-around;
+	margin: 13px;
+	height: 300px;
+}
+
+#images div {
+	width: 30%;
+	overflow: hidden;
+}
+
+#images img {
+	width: 100%;
+}
+
+#images div:nth-of-type(2) {
+	border-radius: 100%;
+}
+
+#images div:nth-of-type(3) {
+	border-radius: 5%;
+}
